@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 const countDown= ()=>{
+  document.title = 'CountDown Timer'
 
   //setting the date to count down to
   let countDownDate = new Date('Aug 8, 2021 23:59:01').getTime()
